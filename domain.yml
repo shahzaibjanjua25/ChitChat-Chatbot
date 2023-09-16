@@ -63,9 +63,8 @@ responses:
     - text: "Hey there! How's your day going?"
 
   utter_cheer_up:
-    - text: "I can brighten your day! Here's a cute cat picture:"
-    - image: "https://th.bing.com/th/id/R.eb1d0dc9ac97a6a7903f9a8f15f15e39?rik=tcWE%2bqmLWCow2g&riu=http%3a%2f%2fdata.1freewallpapers.com%2fdownload%2f3-cute-kittens.jpg&ehk=%2fYqrQL8Ji1RbDN2cMDTLWKkpI64SjbT%2bwwS8htZLfow%3d&risl=&pid=ImgRaw&r=0"
-
+    - text: "I can brighten your day! Here's a cute cat picture:https://th.bing.com/th/id/R.eb1d0dc9ac97a6a7903f9a8f15f15e39?rik=tcWE%2bqmLWCow2g&riu=http%3a%2f%2fdata.1freewallpapers.com%2fdownload%2f3-cute-kittens.jpg&ehk=%2fYqrQL8Ji1RbDN2cMDTLWKkpI64SjbT%2bwwS8htZLfow%3d&risl=&pid=ImgRaw&r=0"
+  
 
   utter_happy:
     - text: "I'm glad to hear that! 😊"
@@ -80,9 +79,7 @@ responses:
     - text: "Sure, I can provide weather information. Please tell me your city or location."
 
   utter_joke:
-    - text: "Of course, here's a joke for you: Why did the smartphone go to Pakistan?
-
-Because it wanted to find its "app"iness in the beautiful landscapes of Pakistan!(chuss but yeah a joke XD)"
+    - text: "Of course, here's a joke for you: Why did the smartphone go to Pakistan? Because it wanted to find its APPiness in the beautiful landscapes of Pakistan!(chuss but yeah a joke XD)"
 
   utter_advice:
     - text: "Here's a piece of advice: Embrace change and adaptability. Life is constantly evolving, and those who can adjust to new circumstances and opportunities often find the most success and happiness. Don't be afraid to step out of your comfort zone, as growth and personal development often happen when you challenge yourself and explore new horizons"
@@ -129,9 +126,7 @@ Because it wanted to find its "app"iness in the beautiful landscapes of Pakistan
     - text: "I can help you book a flight. Please provide your destination, departure date, and any preferences."
 
   utter_tell_joke:
-    - text: "Here's a joke for you: Why did the cricket ball invite the football to its party in Pakistan?
-
-Because it wanted to have a "kick" while everyone else had a "ball"! (chuss but XD)."
+    - text: "Here's a joke for you: Why did the cricket ball invite the football to its party in Pakistan? Because it wanted to have a KICK while everyone else had a BALL (chuss but XD)."
 
   utter_share_news:
     - text: "Sure, I can share the latest news with you. What type of news are you interested in?"
@@ -161,7 +156,7 @@ Because it wanted to have a "kick" while everyone else had a "ball"! (chuss but 
     - text: "Once upon a time in a land far, far away..."
 
   utter_riddle:
-    - text: "Here's a riddle for you: I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I? Anwer(an echo.")"
+    - text: "Here's a riddle for you: I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I? Anwer(an echo)"
 
   utter_health_tips:
     - text: "Staying healthy is important! Here are some health tips: Stay hydrated! Drinking enough water is essential for your overall health. It helps maintain bodily functions, keeps your skin looking healthy, aids digestion, and even helps with concentration and energy levels. Aim to drink at least 8 glasses (about 2 liters) of water a day, and adjust your intake based on your activity level and climate."
@@ -191,7 +186,7 @@ Because it wanted to have a "kick" while everyone else had a "ball"! (chuss but 
     - text: "Hungry for a recommendation? Please tell me your cuisine preference and location."
 
   utter_fitness_tips:
-    - text: "Staying fit is important! Here are some fitness tips: [Insert fitness tips here]."
+    - text: "Staying fit is important! Here are some fitness tips:Regular physical activity is key to maintaining a healthy lifestyle. Aim for at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorous-intensity exercise per week, along with muscle-strengthening activities on two or more days a week. Remember that staying active doesn't have to be complicated – walking, jogging, cycling, or dancing are great ways to get moving and improve your fitness."
 
   utter_travel_recommendation:
     - text: "Dreaming of your next trip? Let me know your preferred destination and travel dates."
@@ -220,7 +215,7 @@ Because it wanted to have a "kick" while everyone else had a "ball"! (chuss but 
     - text: "Life hacks can be so helpful! Here's a useful life hack: To prevent your clothes from wrinkling while traveling, roll them instead of folding. Rolling your clothes not only saves space in your suitcase but also minimizes wrinkles, making it easier to unpack and wear your clothes right away when you arrive at your destination. This method is particularly handy for business trips or vacations where you want to keep your clothing looking neat and fresh."
 
   utter_gardening_tips:
-    - text: "Gardening can be a great hobby. Here are some gardening tips: "Prune your plants in the early morning or late afternoon to prevent stress on them during the hottest part of the day"
+    - text: "Gardening can be a great hobby. Here are some gardening tips: Prune your plants in the early morning or late afternoon to prevent stress on them during the hottest part of the day"
   
 
  

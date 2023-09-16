@@ -83,7 +83,7 @@ class ActionLifeHacks(Action):
         dispatcher.utter_message(template="utter_life_hacks")
         return []
 
-# Add more actions for other intents as needed
+
 
 class ActionFallback(Action):
     def name(self) -> Text:
@@ -93,4 +93,4 @@ class ActionFallback(Action):
         dispatcher.utter_template("utter_default", tracker)
         return [UserUtteranceReverted()]
 
-# Define actions for other intents in a similar manner
+
