@@ -1,0 +1,251 @@
+version: "3.1"
+
+stories:
+- story: Greet and Ask for Help
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: help
+    - action: utter_help
+
+- story: Ask for Weather
+  steps:
+    - intent: weather
+    - action: utter_weather
+
+- story: Tell a Joke and Share News
+  steps:
+    - intent: joke
+    - action: utter_joke
+    - intent: share_news
+    - action: utter_share_news
+
+- story: Order Food and Confirm Order
+  steps:
+    - intent: order_food
+    - action: utter_order_food
+    - intent: confirm_order
+    - action: utter_confirm_order
+
+- story: Book a Flight and Get Flight Info
+  steps:
+    - intent: book_flight
+    - action: utter_book_flight
+    - intent: flight_info
+    - action: utter_flight_info
+
+- story: Tell a Riddle and Provide Health Tips
+  steps:
+    - intent: riddle
+    - action: utter_riddle
+    - intent: health_tips
+    - action: utter_health_tips
+
+- story: Get Technology News and Inspirational Quote
+  steps:
+    - intent: technology_news
+    - action: utter_technology_news
+    - intent: inspirational_quote
+    - action: utter_inspirational_quote
+
+- story: Ask for Fitness Tips and Travel Recommendation
+  steps:
+    - intent: fitness_tips
+    - action: utter_fitness_tips
+    - intent: travel_recommendation
+    - action: utter_travel_recommendation
+- story: Provide Health Tips and Say Goodbye
+  steps:
+    - intent: health_tips
+    - action: utter_health_tips
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Ask for Time and Get Current Time
+  steps:
+    - intent: time_now
+    - action: utter_time_now
+
+- story: Ask for Calculation and Calculate
+  steps:
+    - intent: calculate
+    - action: utter_calculate
+
+- story: Get Sports News and Ask for Movie Recommendation
+  steps:
+    - intent: sports_news
+    - action: utter_sports_news
+    - intent: movie_recommendation
+    - action: utter_movie_recommendation
+
+- story: Ask for Fun Fact and Share Fun Fact
+  steps:
+    - intent: fun_fact
+    - action: utter_fun_fact
+
+- story: Ask for News and Share News
+  steps:
+    - intent: news
+    - action: utter_news
+
+- story: Get Definition and Share Definition
+  steps:
+    - intent: define_term
+    - action: utter_define_term
+
+- story: Set Alarm and Confirm Alarm
+  steps:
+    - intent: set_alarm
+    - action: utter_set_alarm
+    - intent: confirm_order
+    - action: utter_confirm_order
+
+- story: Share News and Get Flight Info
+  steps:
+    - intent: share_news
+    - action: utter_share_news
+    - intent: flight_info
+    - action: utter_flight_info
+
+- story: Book Flight and Cancel Flight
+  steps:
+    - intent: book_flight
+    - action: utter_book_flight
+    - intent: cancel_flight
+    - action: utter_cancel_flight
+
+- story: Open App and Tell Story
+  steps:
+    - intent: open_app
+    - action: utter_open_app
+    - intent: tell_story
+    - action: utter_tell_story
+
+- story: Get Inspirational Quote and Provide Restaurant Recommendation
+  steps:
+    - intent: inspirational_quote
+    - action: utter_inspirational_quote
+    - intent: restaurant_recommendation
+    - action: utter_restaurant_recommendation
+
+- story: Ask for Trivia Question and Ask for Recipe
+  steps:
+    - intent: trivia_question
+    - action: utter_trivia_question
+    - intent: recipe
+    - action: utter_recipe
+
+- story: Ask for Quiz and Ask for History Facts
+  steps:
+    - intent: quiz
+    - action: utter_quiz
+    - intent: history_facts
+    - action: utter_history_facts
+
+- story: Ask for Language Translation and Daily Horoscope
+  steps:
+    - intent: language_translation
+    - action: utter_language_translation
+    - intent: daily_horoscope
+    - action: utter_daily_horoscope
+
+- story: Ask for Job Search and Provide Life Hack
+  steps:
+    - intent: job_search
+    - action: utter_job_search
+    - intent: life_hacks
+    - action: utter_life_hacks
+
+- story: Ask for Gardening Tips
+  steps:
+    - intent: gardening_tips
+    - action: utter_gardening_tips
+- story: Provide Advice
+  steps:
+    - intent: advice
+    - action: utter_advice
+
+- story: Confirm Affirmation
+  steps:
+    - intent: affirm
+    - action: utter_happy
+
+- story: Ask for Age
+  steps:
+    - intent: ask_age
+    - action: utter_ask_age
+
+- story: Ask for Location
+  steps:
+    - intent: ask_location
+    - action: utter_ask_location
+
+- story: Ask for Name
+  steps:
+    - intent: ask_name
+    - action: utter_ask_name
+
+- story: Cancel Order
+  steps:
+    - intent: cancel_order
+    - action: utter_cancel_order
+
+- story: Deny Request
+  steps:
+    - intent: deny
+    - action: utter_insult
+
+- story: Introduction
+  steps:
+    - intent: intro
+    - action: utter_intro
+
+- story: Mood - Great
+  steps:
+    - intent: mood_great
+    - action: utter_happy
+
+- story: Mood - Unhappy
+  steps:
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+
+- story: Play Music
+  steps:
+    - intent: play_music
+    - action: utter_play_music
+
+- story: Set Reminder
+  steps:
+    - intent: remind_me
+    - action: utter_remind_me
+
+- story: Share Joke
+  steps:
+    - intent: tell_joke
+    - action: utter_tell_joke
+
+- story: Express Gratitude
+  steps:
+    - intent: thank
+    - action: utter_thank
+
+- story: Book a Flight
+  steps:
+    - intent: flight_booking
+    - action: utter_flight_booking
+
+- story: Request Definition
+  steps:
+    - intent: get_definition
+    - action: utter_get_definition
+
+- story: Insult the Bot
+  steps:
+    - intent: insult
+    - action: utter_insult
+
+- story: Provide Help
+  steps:
+    - intent: help
+    - action: utter_help

@@ -1,0 +1,230 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - weather
+  - joke
+  - advice
+  - insult
+  - thank
+  - intro
+  - ask_name
+  - ask_age
+  - ask_location
+  - remind_me
+  - help
+  - news
+  - gardening_tips
+  - define_term
+  - set_alarm
+  - play_music
+  - order_food
+  - book_flight
+  - tell_joke
+  - share_news
+  - get_definition
+  - confirm_order
+  - cancel_order
+  - flight_info
+  - flight_booking
+  - cancel_flight
+  - open_app
+  - tell_story
+  - riddle
+  - health_tips
+  - time_now
+  - calculate
+  - sports_news
+  - movie_recommendation
+  - fun_fact
+  - technology_news
+  - inspirational_quote
+  - restaurant_recommendation
+  - fitness_tips
+  - travel_recommendation
+  - trivia_question
+  - recipe
+  - quiz
+  - history_facts
+  - language_translation
+  - daily_horoscope
+  - job_search
+  - life_hacks
+ 
+
+responses:
+  utter_greet:
+    - text: "Hey there! How's your day going?"
+
+  utter_cheer_up:
+    - text: "I can brighten your day! Here's a cute cat picture:"
+    - image: "https://th.bing.com/th/id/R.eb1d0dc9ac97a6a7903f9a8f15f15e39?rik=tcWE%2bqmLWCow2g&riu=http%3a%2f%2fdata.1freewallpapers.com%2fdownload%2f3-cute-kittens.jpg&ehk=%2fYqrQL8Ji1RbDN2cMDTLWKkpI64SjbT%2bwwS8htZLfow%3d&risl=&pid=ImgRaw&r=0"
+
+
+  utter_happy:
+    - text: "I'm glad to hear that! 😊"
+
+  utter_goodbye:
+    - text: "Goodbye! If you ever need to chat, I'll be here."
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa. But I'm a friendly one!"
+
+  utter_weather:
+    - text: "Sure, I can provide weather information. Please tell me your city or location."
+
+  utter_joke:
+    - text: "Of course, here's a joke for you: Why did the smartphone go to Pakistan?
+
+Because it wanted to find its "app"iness in the beautiful landscapes of Pakistan!(chuss but yeah a joke XD)"
+
+  utter_advice:
+    - text: "Here's a piece of advice: Embrace change and adaptability. Life is constantly evolving, and those who can adjust to new circumstances and opportunities often find the most success and happiness. Don't be afraid to step out of your comfort zone, as growth and personal development often happen when you challenge yourself and explore new horizons"
+
+  utter_insult:
+    - text: "Oh, you're quite the comedian! 😄"
+
+  utter_thank:
+    - text: "You're welcome! If you have more questions or just want to chat, feel free to ask."
+
+  utter_intro:
+    - text: "Hello! I'm your friendly chatbot. I'm here to chat, tell jokes, provide advice, and more. How can I assist you today?"
+
+  utter_ask_name:
+    - text: "What's your name?"
+
+  utter_ask_age:
+    - text: "How old are you?"
+
+  utter_ask_location:
+    - text: "Where are you located?"
+
+  utter_remind_me:
+    - text: "Sure, I can remind you of things. What would you like me to remind you about?"
+
+  utter_help:
+    - text: "I'm here to assist you! You can ask me for weather updates, jokes, advice, news, definitions, set alarms, play music, order food, book flights, and much more."
+  utter_news:
+    - text: "Sure, I can provide you with the latest news. What topic are you interested in?"
+
+  utter_define_term:
+    - text: "I can help you define terms. Just let me know what word you'd like to define."
+
+  utter_set_alarm:
+    - text: "Sure, I can set an alarm for you. Please specify the time and a brief description of the alarm."
+
+  utter_play_music:
+    - text: "Great choice! What genre or artist would you like to listen to?"
+
+  utter_order_food:
+    - text: "Yum! What type of food are you in the mood for, and from which restaurant?"
+
+  utter_book_flight:
+    - text: "I can help you book a flight. Please provide your destination, departure date, and any preferences."
+
+  utter_tell_joke:
+    - text: "Here's a joke for you: Why did the cricket ball invite the football to its party in Pakistan?
+
+Because it wanted to have a "kick" while everyone else had a "ball"! (chuss but XD)."
+
+  utter_share_news:
+    - text: "Sure, I can share the latest news with you. What type of news are you interested in?"
+
+  utter_get_definition:
+    - text: "I'd be happy to provide a definition. Please tell me the word you'd like to define."
+
+  utter_confirm_order:
+    - text: "Your order is confirmed! You'll receive a confirmation email shortly."
+
+  utter_cancel_order:
+    - text: "I've canceled your order. Is there anything else I can assist you with?"
+
+  utter_flight_info:
+    - text: "Please provide your flight details, and I'll get you the information you need."
+
+  utter_flight_booking:
+    - text: "I can assist you with flight bookings. Where would you like to fly to, and when?"
+
+  utter_cancel_flight:
+    - text: "I understand you want to cancel your flight. Please provide your booking details."
+
+  utter_open_app:
+    - text: "Which app would you like to open?"
+
+  utter_tell_story:
+    - text: "Once upon a time in a land far, far away..."
+
+  utter_riddle:
+    - text: "Here's a riddle for you: I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I? Anwer(an echo.")"
+
+  utter_health_tips:
+    - text: "Staying healthy is important! Here are some health tips: Stay hydrated! Drinking enough water is essential for your overall health. It helps maintain bodily functions, keeps your skin looking healthy, aids digestion, and even helps with concentration and energy levels. Aim to drink at least 8 glasses (about 2 liters) of water a day, and adjust your intake based on your activity level and climate."
+
+  utter_time_now:
+    - text: "The current time is KARI WEKH LA THLO"
+
+  utter_calculate:
+    - text: "I can help you with calculations. Please provide the math problem you'd like me to solve."
+
+  utter_sports_news:
+    - text: "Interested in sports news? What sport or team are you curious about?"
+
+  utter_movie_recommendation:
+    - text: "I can recommend a movie for you. What genre or mood are you in the mood for?"
+
+  utter_fun_fact:
+    - text: "Here's a fun fact: Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible. Honey's natural composition, including low water content and high acidity, creates an environment that is inhospitable to bacteria and microorganisms, making it an excellent preservative.."
+
+  utter_technology_news:
+    - text: "For the latest tech news, just let me know your area of interest."
+
+  utter_inspirational_quote:
+    - text: "Here's an inspirational quote: Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill"
+
+  utter_restaurant_recommendation:
+    - text: "Hungry for a recommendation? Please tell me your cuisine preference and location."
+
+  utter_fitness_tips:
+    - text: "Staying fit is important! Here are some fitness tips: [Insert fitness tips here]."
+
+  utter_travel_recommendation:
+    - text: "Dreaming of your next trip? Let me know your preferred destination and travel dates."
+
+  utter_trivia_question:
+    - text: "Here's a trivia question for you: What is the smallest planet in our solar system?"
+  utter_recipe:
+    - text: "I can help you with recipes. What type of dish are you interested in, and do you have any dietary preferences?"
+
+  utter_quiz:
+    - text: "Ready for a quiz? Great! What topic or category would you like the quiz to be about?"
+
+  utter_history_facts:
+    - text: "History is fascinating! Here's a historical fact: The Great Wall of China, one of the most iconic historical landmarks, was not built in a single project but over many centuries by various Chinese dynasties. It stretches over 13,000 miles (21,196 kilometers) and was constructed to protect China from invasions by nomadic tribes and to regulate trade along the Silk Road. The construction of the wall began as early as the 7th century BC and continued for centuries, with different dynasties adding to and maintaining different sections of the wall.."
+
+  utter_language_translation:
+    - text: "I can assist with language translation. Please provide the text you'd like to translate and the target language."
+
+  utter_daily_horoscope:
+    - text: "What's your zodiac sign? I can provide your daily horoscope."
+
+  utter_job_search:
+    - text: "Looking for a job? Please specify your preferred job title and location."
+
+  utter_life_hacks:
+    - text: "Life hacks can be so helpful! Here's a useful life hack: To prevent your clothes from wrinkling while traveling, roll them instead of folding. Rolling your clothes not only saves space in your suitcase but also minimizes wrinkles, making it easier to unpack and wear your clothes right away when you arrive at your destination. This method is particularly handy for business trips or vacations where you want to keep your clothing looking neat and fresh."
+
+  utter_gardening_tips:
+    - text: "Gardening can be a great hobby. Here are some gardening tips: "Prune your plants in the early morning or late afternoon to prevent stress on them during the hottest part of the day"
+  
+
+ 
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

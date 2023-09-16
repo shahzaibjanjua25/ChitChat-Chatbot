@@ -1,0 +1,299 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey there
+    - How's it going?
+
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - Bye
+    - See you later
+    - Farewell
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Indeed
+    - That's right
+    - Absolutely
+
+- intent: deny
+  examples: |
+    - No
+    - Nope
+    - I don't think so
+    - Not really
+
+- intent: mood_great
+  examples: |
+    - I'm feeling great
+    - I'm fantastic
+    - I'm wonderful
+
+- intent: mood_unhappy
+  examples: |
+    - I'm feeling sad
+    - I'm not doing well
+    - I'm upset
+
+- intent: bot_challenge
+  examples: |
+    - Are you a bot?
+    - Are you a human or a bot?
+    - I think you're a robot
+
+- intent: weather
+  examples: |
+    - What's the weather like today?
+    - Can you tell me the weather forecast?
+    - Is it going to rain tomorrow?
+
+- intent: joke
+  examples: |
+    - Tell me a joke
+    - Share a funny joke
+    - Make me laugh
+
+- intent: advice
+  examples: |
+    - Give me some advice
+    - What should I do in this situation?
+    - Do you have any tips for me?
+
+- intent: insult
+  examples: |
+    - You're not very smart
+    - You're a terrible chatbot
+    - I don't like you
+
+- intent: thank
+  examples: |
+    - Thank you
+    - Thanks a lot
+    - I appreciate your help
+
+- intent: intro
+  examples: |
+    - Who are you?
+    - Tell me about yourself
+    - What can you do?
+
+- intent: ask_name
+  examples: |
+    - What's your name?
+    - Can I know your name?
+    - Tell me your name
+
+- intent: ask_age
+  examples: |
+    - How old are you?
+    - What's your age?
+
+- intent: ask_location
+  examples: |
+    - Where are you located?
+    - What's your location?
+
+- intent: remind_me
+  examples: |
+    - Set a reminder for me
+    - Remind me to call someone
+    - I need a reminder for an event
+
+- intent: help
+  examples: |
+    - Can you help me?
+    - I need assistance
+    - Help!
+
+- intent: news
+  examples: |
+    - Tell me the latest news
+    - What's happening in the world?
+    - Give me some news updates
+
+- intent: define_term
+  examples: |
+    - Define the word "serendipity"
+    - What does "algorithm" mean?
+
+- intent: set_alarm
+  examples: |
+    - Set an alarm for 7 AM
+    - Wake me up at 6:30 AM tomorrow
+
+- intent: play_music
+  examples: |
+    - Play some jazz music
+    - Can you play "Shape of You" by Ed Sheeran?
+
+- intent: order_food
+  examples: |
+    - I want to order pizza
+    - Order sushi for me
+
+- intent: book_flight
+  examples: |
+    - I need to book a flight to Paris
+    - Can you find a flight to New York for me?
+
+- intent: tell_joke
+  examples: |
+    - Tell me a funny joke
+    - Share a joke with me
+
+- intent: share_news
+  examples: |
+    - Share the news with me
+    - What's in the news today?
+
+- intent: get_definition
+  examples: |
+    - Define "technology"
+    - What's the definition of "philosophy"?
+
+- intent: confirm_order
+  examples: |
+    - Confirm my order
+    - Did you receive my order?
+
+- intent: cancel_order
+  examples: |
+    - I want to cancel my order
+    - Cancel the order I placed earlier
+
+- intent: flight_info
+  examples: |
+    - Can you provide information about my flight?
+    - What's the status of flight AA123?
+
+- intent: flight_booking
+  examples: |
+    - Help me book a flight to London
+    - Book a one-way ticket to Tokyo
+
+- intent: cancel_flight
+  examples: |
+    - I need to cancel my flight reservation
+    - Cancel my flight booking for tomorrow
+
+- intent: open_app
+  examples: |
+    - Open Spotify
+    - Launch the calculator app
+
+- intent: tell_story
+  examples: |
+    - Tell me a bedtime story
+    - Share a short story
+
+- intent: riddle
+  examples: |
+    - Give me a riddle
+    - Challenge me with a riddle
+
+- intent: health_tips
+  examples: |
+    - Share some health tips
+    - What are some tips for a healthy lifestyle?
+
+- intent: time_now
+  examples: |
+    - What's the time now?
+    - Can you tell me the current time?
+
+- intent: calculate
+  examples: |
+    - Calculate 25 multiplied by 4
+    - What's the result of 45 divided by 5?
+
+- intent: sports_news
+  examples: |
+    - Tell me about the latest sports news
+    - Give me updates on NBA scores
+
+- intent: movie_recommendation
+  examples: |
+    - Recommend a good movie to watch
+    - Suggest a romantic movie
+
+- intent: fun_fact
+  examples: |
+    - Share a fun fact
+    - Tell me something interesting
+
+- intent: technology_news
+  examples: |
+    - What's the latest in technology news?
+    - Give me tech updates
+
+- intent: inspirational_quote
+  examples: |
+    - Share an inspirational quote
+    - Inspire me with a quote
+
+- intent: restaurant_recommendation
+  examples: |
+    - Recommend a restaurant for dinner
+    - Where should I eat tonight?
+
+- intent: fitness_tips
+  examples: |
+    - Share fitness tips
+    - How can I stay fit and healthy?
+
+- intent: travel_recommendation
+  examples: |
+    - Recommend a travel destination
+    - Where should I go for my next vacation?
+
+- intent: trivia_question
+  examples: |
+    - Ask me a trivia question
+    - Challenge me with a trivia question
+
+- intent: recipe
+  examples: |
+    - Share a recipe
+    - Give me a recipe for spaghetti
+
+- intent: quiz
+  examples: |
+    - Create a quiz for me
+    - I want to take a quiz
+
+- intent: history_facts
+  examples: |
+    - Tell me a historical fact
+    - Share an interesting history fact
+
+- intent: language_translation
+  examples: |
+    - Translate this text to French
+    - Can you help me with a translation?
+
+- intent: daily_horoscope
+  examples: |
+    - What's my horoscope for today?
+    - Can you give me my daily horoscope?
+
+- intent: job_search
+  examples: |
+    - I'm looking for a job
+    - Help me find job listings
+
+- intent: life_hacks
+  examples: |
+    - Share a life hack
+    - Give me a useful life tip
+
+- intent: gardening_tips
+  examples: |
+    - Share some gardening tips
+    - How can I improve my garden?
+
